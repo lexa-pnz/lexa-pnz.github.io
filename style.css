@@ -1,0 +1,189 @@
+body{
+	margin: 0;
+}
+
+.wrapper{
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.menu{
+background-color: #00BFFF;
+}
+
+.logo{
+	margin: 20px 10px 20px 10px;
+  float: left;
+}
+
+.logo span{
+	color: white;
+}
+
+.logo-size{
+	font-size: 30px;
+}
+
+.licat:hover {
+	background:#232323;
+	padding: 5px;
+}
+
+
+.menu-item{
+	float: right;
+}
+
+.navigation{
+	padding: 0;
+	margin: 40px 8px;
+	font-size: 20px;
+}
+
+.navigation li{
+	display: inline;
+	margin: 0 10px;
+	padding: 5px;
+}
+
+
+.navigation a{
+	text-decoration: none;
+	color: white;
+}
+
+.header{
+background-color: #eb504e;
+color: white;
+text-align: center;
+}
+
+
+h1{
+	letter-spacing: 4px;
+  margin: 18px 0 0 0;
+  font-size: 50px;
+}
+
+
+.header p{
+	margin: 5px 0 10px 0;
+}
+
+.creative1{
+	background-color: #232323;
+	text-align: center;
+}
+
+.creativ2{
+	background-color: #232323;
+}
+
+.creative1 h2{
+	color: white;
+	letter-spacing: 4px;
+	margin: 25px 0 0 4px;
+}
+
+.creative1 p{
+	color: #eb504e;
+	font-size: 14px;
+	margin: 8px 0 0 10px;
+}
+
+.creativ2-item{
+	float: left;
+	margin: 30px 65px 20px 65px;
+}
+
+.color-creative2-gl{
+	color: white;
+	text-align: center;
+	margin: 5px 0;
+	font-size: 18px;
+}
+
+.color-creative2{
+	text-align: center;
+	color: #ab6561;
+}
+
+.center-img-creative2{
+	margin: 2px 2px 2px 32px;
+	transition: all 0.5s ease-in-out 0s;
+}
+
+.center-img-creative2:hover
+{
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+
+.gallery-txt{
+	background-color: #6cc372;
+	text-align: center;
+}
+
+.gallery-txt .wrapper h2{
+	color: white;
+	letter-spacing: 4px;
+	margin: 25px 0 0 4px;
+}
+
+
+.gallery-txt .wrapper p{
+	color: black;
+	font-size: 14px;
+	margin: 8px 0 0 10px;
+}
+
+.gallery{
+	background-color: #6cc372;
+}
+
+.gallery-item-fond{
+	float: left;
+	margin: 30px 50px 20px 50px;
+}
+
+
+.gallery-item-fond img{
+	width: 200px;
+	height: 150px;
+}
+
+.footer{
+	background-color: #232323;
+	color: white;
+	font-size: 14px;
+	padding: 10px 0 5px 0;
+}
+
+.footer span{
+	color: #ab6561;
+}
+
+.footer-float{
+	float: left;
+}
+
+.footer-float2{
+	float: right;
+}
+
+.footer img{
+	width: 25px;
+	height: 25px;
+	margin: 0 5px;
+	
+}
+
+
+.size-rab{
+	margin: 0px 120px 285px 120px;
+	height: 350px;
+	width:  650px;
+}
