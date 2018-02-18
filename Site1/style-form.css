@@ -1,0 +1,114 @@
+.form{
+	background: url(img/bg.png);
+}
+
+.login{
+	background-color: #fff; 
+  height: 240px;
+  width: 400px;
+  margin: 17.4% auto;
+  padding: 30px;
+}
+
+.reg{
+	background-color: #fff; 
+  height: 600px;
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+
+fieldset{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+h1{
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .7), 0px 2px 0 rgba(0, 0, 0, .5);
+  text-transform: uppercase;
+  text-align: center;
+  color: #666;
+  margin: 0 0 30px 0;
+  font: 26px Verdana;
+}
+
+
+.inpgl input{
+  background: #f1f1f1;
+  padding: 15px 15px;
+  margin: 0 0px 10px 0;
+  width: 370px;
+  border: 1px solid #ccc;
+}
+
+
+.actions{
+    margin: 25px 0 0 0;
+}
+
+
+.submit{		
+  background-color: #ffb94b;  
+  border-width: 1px;
+  border-style: solid;
+  float: left;
+  height: 35px;
+  padding: 0;
+  width: 120px;
+  cursor: pointer;
+  font: bold 15px Arial;
+  color: #8f5a0a;
+}
+
+.submit-reg{		
+  background-color: #ffb94b;
+  border: none;
+  height: 35px;
+  padding: 0;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  font: bold 15px Arial;
+  color: #8f5a0a;
+  margin: 0px 100px;
+}
+
+.sex{
+	float: left;
+	margin: 20px 5px;
+	margin-right: 30px;
+}
+
+.sex2{
+float: left;
+	margin: 20px 5px;
+}
+
+.sex2 input{
+	margin-right: 30px;
+}
+
+
+
+.submit:hover{		
+  background-color: #fddb6f;
+}	
+
+.submit-reg:hover{		
+  background-color: #fddb6f;
+}	
+
+.actions a:hover{
+	color: #DC143C;
+}
+
+.actions a{
+	float: right;
+  color: #3151A2;    
+  line-height: 35px;
+  margin-left: 10px;
+  text-decoration: none;
+}
