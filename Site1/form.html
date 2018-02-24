@@ -6,6 +6,7 @@
     <link rel="icon" href="img/logo.png"> 
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" type="text/css" href="style-form.css">
+    <script src="script.js"></script>
 </head> 
 <body>
 
@@ -35,11 +36,11 @@
   <div class="form">
     <div class="wrapper">
     
-    <form class="login">
+    <form class="login" name="Form" onSubmit="return CheckForm()" method="post">
       <h1>Форма входа</h1>
       <fieldset class="inpgl">
-        <input id="username" type="text" placeholder="Логин" autofocus required>   
-        <input id="password" type="password" placeholder="Пароль" required>
+        <input id="log"  type="text" placeholder="Логин" autofocus>   
+        <input id="pass" type="password" placeholder="Пароль" >
       </fieldset>
 
       <fieldset class="actions">

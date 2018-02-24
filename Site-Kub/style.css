@@ -1,0 +1,164 @@
+body{
+	background: #87CEFA;
+}
+
+h2{
+	color: #743fd1;
+}
+
+.font{
+background: #DC143C;
+width: 400px;
+height: 400px;
+/*margin: 0px 550px 100px 550px;*/
+border-radius: 30px;
+}
+
+.flex{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+img{ 
+	weight: 100px; 
+	height: 100px;
+}
+
+/* 1 Точка */
+.point1{
+	position: relative;
+	left: 150px;
+	top: 130px;
+}
+
+
+/* 2 Точки */
+.point2-1{
+	position: relative;
+	left: 250px;
+	top: 40px;
+}
+
+.point2-2{
+	position: relative;
+	left: -40px;
+	top: 250px;
+}
+
+
+/* 3 Точки */
+.point3-1{
+	position: relative;
+	left: 250px;
+	top: 40px;
+}
+
+.point3-2{
+	position: relative;
+	left: 40px;
+	top: 150px;
+}
+
+.point3-3{
+	position: relative;
+	left: -160px;
+	top: 260px;
+}
+
+
+/* 4 Точки */
+.point4-1{
+	position: relative;
+	left: 250px;
+	top: 40px;
+}
+
+.point4-2{
+	position: relative;
+	left: 145px;
+	top: 260px;
+}
+
+.point4-3{
+	position: relative;
+	left: -150px;
+	top: 40px;
+}
+
+.point4-4{
+	position: relative;
+	left: 55px;
+	top: 155px;
+}
+
+
+/* 5 Точек */
+.point5-1{
+	position: relative;
+	left: 250px;
+	top: 40px;
+}
+
+.point5-2{
+	position: relative;
+	left: 145px;
+	top: 260px;
+}
+
+.point5-3{
+	position: relative;
+	left: -150px;
+	top: 40px;
+}
+
+.point5-4{
+	position: relative;
+	left: 55px;
+	top: 155px;
+}
+
+.point5-5{
+	position: relative;
+	left: 45px;
+	top: 45px;
+}
+
+
+/* 6 Точек */
+.point6-1{
+	position: relative;
+	left: 250px;
+	top: 40px;
+}
+
+.point6-2{
+	position: relative;
+	left: 145px;
+	top: 260px;
+}
+
+.point6-3{
+	position: relative;
+	left: -150px;
+	top: 40px;
+}
+
+.point6-4{
+	position: relative;
+	left: 55px;
+	top: 155px;
+}
+
+.point6-5{
+	position: relative;
+	left: -45px;
+	top: 45px;
+}
+
+.point6-6{
+	position: relative;
+	left: 45px;
+	top: 45px;
+}

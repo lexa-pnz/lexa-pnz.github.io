@@ -6,6 +6,7 @@
     <link rel="icon" href="img/logo.png"> 
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" type="text/css" href="style-form.css">
+    <script src="script.js"></script>
 </head> 
 <body>
 
@@ -35,30 +36,29 @@
   <div class="form">
     <div class="wrapper">
     
-    <form class="reg">
+    <form class="reg" name="FormReg" onSubmit="CheckFormReg()" method="post">
       <h1>Регистрация</h1>
       
       <fieldset class="inpgl">
-        <input id="name" type="text" placeholder="Имя" autofocus required> 
+        <input id="name" type="text" placeholder="Имя" autofocus> 
         <input id="name2" type="text" placeholder="Фамилия"> 
-        <input id="email" type="text" placeholder="Почта" required>
-        <input id="Country" type="text" placeholder="Страна" > 
-        <input id="City" type="text" placeholder="Город" > 
+        <input id="email" type="text" placeholder="Почта">
       </fieldset class="inpgl">
 
         <div class="sex"> Выберите пол </div>
            
         <div class="sex2"> 
-          М<input type="radio" name="sex" value="1">
+          М<input type="radio" name="sex"  value="1">
           Ж<input type="radio" name="sex" value="0"> 
         </div>
 
       <fieldset class="inpgl">
-        <input id="password" type="password" placeholder="Пароль" required>
+        <input id="password" type="password" placeholder="Пароль">
+        <input id="password2" type="password" placeholder="Повторите пароль">
       </fieldset>
       <br>
 
-      <input type="checkbox" name="obr" required> 
+      <input type="checkbox" name="obr"> 
       Согласиться на обработку персональных данных
       
       <br>
