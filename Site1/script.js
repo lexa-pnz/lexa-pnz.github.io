@@ -27,9 +27,16 @@ function CheckFormReg() {
 	var field_password = document.getElementById('password'); 
 	var field_password2 = document.getElementById('password2'); 
 
-
 	if (field_name.value == "") {
 		alert ("Введите имя"); 
+		return false;
+	}
+	else if (field_name.value.length < 2) {
+		alert ("Имя слишком короткое");
+		return false;
+	}
+	else if (field_name.value.match(/[a-zA-Zа-яА-Я]/)==null){
+		alert ("Имя может содержать только буквы"); 
 		return false;
 	}
 
@@ -37,10 +44,22 @@ function CheckFormReg() {
 		alert ("Введите фамилию"); 
 		return false;
 	}
+	else if (field_name2.value.length < 2) {
+		alert ("Фамилия слишком короткая");
+		return false;
+	}
+	else if (field_name2.value.match(/[a-zA-Zа-яА-Я]/)==null) {
+		alert ("Фамилия может содержать только буквы"); 
+		return false;
+	}
 
 
 	if (field_email.value == "") {
 		alert ("Введите email !"); 
+		return false;
+	}
+	else if (field_email.value.match(/^\w+(['\.\-\+]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/)==null) {
+		alert ("Введите корректный email"); 
 		return false;
 	}
 	

@@ -1,0 +1,675 @@
+body{
+	margin: 0;
+}
+
+a{ 
+  text-decoration: none;
+} 
+
+@font-face {
+	font-family: QuiteChocolatey;
+	src: url(fonts/QuiteChocolatey.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url(fonts/montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url(fonts/montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: PTF75F;
+	src: url(fonts/ptserif/PTF75F.ttf);
+}
+
+@font-face {
+	font-family: PTF55F;
+	src: url(fonts/ptserif/PTF55F.ttf);
+}
+
+@font-face {
+	font-family: Mina-Bold;
+	src: url(fonts/Mina/Mina-Bold.ttf);
+}
+
+@font-face {
+	font-family: Mina-Regular;
+	src: url(fonts/Mina/Mina-Regular.ttf);
+}
+
+@font-face {
+	font-family: COUTURE-Bold;
+	src: url(fonts/COUTURE-Bold.ttf);
+}
+
+
+.flex{
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper{
+	max-width: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*                                      MENU                                              */
+/*----------------------------------------------------------------------------------------*/
+.flex-menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-menu2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.menu{
+	background: #dd2211 url(img/Layer13.png) no-repeat;
+	background-size: 100%;
+}
+
+.menu h2{
+	font-family: QuiteChocolatey, 'Comic Sans MS', cursive;
+	font-size: 100px;
+	color: white;
+	margin: 3%;
+	font-weight: 200;
+}
+
+.menu li{
+	display: inline;
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: Montserrat-Regular, 'Comic Sans MS', cursive;
+}
+
+.option{
+	border: 10px solid transparent;
+	border-radius: 5px;
+
+	transition: all 0.05s;
+}
+
+.option:hover{
+	background: #130e27;
+	border: 10px solid #130e27;
+	border-radius: 5px;
+	transition: all 0.05s;
+}
+
+
+.text-menu{
+	width: 45%;
+	margin-left: 20px;
+}
+
+.text-menu1{
+	font-size: 100px;
+	color: #130e27;
+  font-family: Montserrat-Bold, 'Comic Sans MS';
+  margin-top: 20%;
+}
+
+.text-menu2{
+	font-size: 100px;
+	color: white;
+	font-family: Montserrat-Bold, 'Comic Sans MS';
+}
+
+.text-menu h3{
+	font-size: 22px;
+	color: white;
+	margin: 10% 0 28% 0;
+	font-family: Mina-Regular, 'Comic Sans MS';
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+/*                                      ICON                                              */
+/*----------------------------------------------------------------------------------------*/
+
+.icon-txt{
+	background-color: #ffffff;
+}
+
+.icon-txt h2{
+  font-size: 55px;
+  color: #130e27;
+  margin: 3% 0 6% 15px;
+  font-family: COUTURE-Bold, 'Comic Sans MS';
+}
+
+.icon-txt span{
+  color: #c62314;
+}
+
+.icon img{
+margin: 20px 0 20px 0;
+height: 133px;
+}
+
+.icon .flex{
+	justify-content: space-between;
+}
+
+.icon-center{
+	text-align: center;
+	margin-bottom: 4%;
+	font-family: Mina-Bold, 'Comic Sans MS';
+	font-weight: 100;
+	color: #130e27;
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+/*                                     STORY                                              */
+/*----------------------------------------------------------------------------------------*/
+
+.story{
+	background-color: #130e27;
+	color: white;
+}
+
+.story h2{
+	font-size: 20px;
+	flex-grow: 1;
+	margin: 40px;
+	font-family: Mina-Regular, 'Comic Sans MS';
+	font-weight: 100;
+}
+
+.story .flex{
+	align-items: center;
+}
+
+.story .button{
+	background-color: #c62314;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 20px;
+	margin: 10px 20px 10px 10px;
+	width: 200px;
+	height: 20px;
+	color: white;
+	font-family: Montserrat-Regular, 'Comic Sans MS';
+	font-weight: 1000;
+
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.2s linear 0s;
+}
+
+.story .button:hover{
+	transform:scale(1.1);
+  transition: all 0.2s linear 0.1s;
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+/*                                    PRICING                                             */
+/*----------------------------------------------------------------------------------------*/
+
+.price-txt{
+	background-color: #efefef;
+	font-family: Montserrat-Bold, 'Comic Sans MS';
+}
+
+.price-txt h2{
+	color: #130e27;
+	font-size: 60px;
+	text-align: center;
+	margin: 6% 0 4% 0;
+}
+
+.price{
+	background-color: #efefef;
+}
+
+.price-block{
+	height: 500px;
+	width: 380px;
+	background-color: white;
+	margin: 0 0 30px 0;
+	border-radius: 10px;
+
+	text-align: center;
+	line-height: 1.5;
+}
+
+.price .wrapper{
+	justify-content: space-between;
+}
+
+.price-block h2{
+	color: red;
+	font-size: 60px;
+	margin: 0px;
+	font-family: Montserrat-Bold, 'Comic Sans MS';
+}
+
+.price-block h3{
+	color: black;
+	font-size: 22px;
+	font-family: Montserrat-Regular, 'Comic Sans MS';
+	line-height: 1.8;
+}
+
+.button-price{
+	width: 200px;
+	height: 50px;
+	background-color: #130e27;
+	color: white;
+	border-radius: 5px;
+	font-size: 25px;
+	font-family: Montserrat-Regular, 'Comic Sans MS';
+	font-weight: 600;
+
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.5s;
+}
+
+.button-price:hover{
+	background: #c62314;
+	transition: all 0.1s;
+}
+
+.price .price-block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+/*                                    GALLERY                                             */
+/*----------------------------------------------------------------------------------------*/
+
+.testimomial{
+	height: 600px;
+	width: 600px;
+
+	display: inline-block;
+}
+
+.gallery{
+	height: 600px;
+	width: 550px;
+
+	display: inline-block;
+}
+
+.photo .flex{
+  justify-content: space-between;
+}
+
+.photo h2{
+  font-size: 60px;
+  text-align: center;
+  color: #130e27;
+  font-family: Montserrat-Bold, 'Comic Sans MS';
+}
+
+.testimomial h3{
+	font-size: 25px;
+	color: #130e27;
+	font-family: Montserrat-Bold, 'Comic Sans MS';
+}
+
+.testimomial h4{
+	font-size:20px;
+	color: #130e27;
+	font-family: Montserrat-Regular, 'Comic Sans MS';
+	font-weight: 600;
+}
+
+.testimomial img{
+	height: 133px;
+	width: 133px;
+}
+
+.float-png{
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+.test-txt{
+	margin: 40px 0 0 30px;
+}
+
+.test-txt2{
+	margin: 100px 0 0 30px;
+}
+
+.gallery h2{
+  color: #c62314;
+}
+
+.flex-a{
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-img{
+	padding: 0px 40px;
+}
+
+.gallery-img img{
+	margin-bottom: 5%;
+}
+
+.gallery a{
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	text-decoration: underline;
+	font-family: Montserrat-Regular, 'Comic Sans MS';
+	font-weight: 600;
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+/*                                     FOOTER                                             */
+/*----------------------------------------------------------------------------------------*/
+
+.footer{
+	background-color: #130e27;
+	color: white;
+	padding: 2% 0;
+}
+
+.flex-foot{
+	display: flex;
+	align-items: center;
+}
+
+.footer h2{
+  font-size: 18px;
+	flex-grow: 1;
+	font-family: Montserrat-Regular, 'Comic Sans MS';
+	font-weight: 100;
+}
+
+
+.spn-ftr-clr{
+	color: #c62314;
+}
+
+.ftr-logo{
+	color: #c62314;
+	font-size: 60px;
+	font-family: QuiteChocolatey, 'Comic Sans MS', cursive;
+	font-weight: 200;
+	margin: 10px 0 0 0;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*______________________________________Ipad _____________________________________________*/
+/*----------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 1064px) {
+
+/*----------------------------------------------------------------------------------------*/
+/*                                      MENU                                              */
+/*----------------------------------------------------------------------------------------*/  
+  
+  .margin-madia{
+  	margin-top: 20px;
+  }
+
+  .text-menu1{
+  	font-size: 60px;
+  	margin-top: 35px;
+  }
+
+  .text-menu2{
+  	font-size: 60px;
+  }
+
+  .text-menu h3{
+    font-size: 18px;
+    margin: 35px 0 90px 0;
+  }
+
+/*----------------------------------------------------------------------------------------*/
+/*                                      ICON                                              */
+/*----------------------------------------------------------------------------------------*/  
+
+  .icon-txt h2{
+  	font-size: 50px;
+  }
+
+  .icon .flex{
+  	margin: 0px 25px 0px 25px;
+  }
+
+/*----------------------------------------------------------------------------------------*/
+/*                                     STORY                                              */
+/*----------------------------------------------------------------------------------------*/
+  .story h2{
+  	font-size: 18px;
+  }
+
+/*----------------------------------------------------------------------------------------*/
+/*                                    PRICING                                             */
+/*----------------------------------------------------------------------------------------*/  
+
+  .price-txt h2{
+  	font-size: 50px;
+  	margin: 40px 0px;
+  }
+
+  .price-block{
+  	height: 405px;
+  	width: 310px;
+  	margin: 0 0 30px 0;
+
+  	line-height: 1.5;
+  }
+
+  .price .flex{
+  	margin: 0px 10px;
+  }
+
+  .price-block h2{
+  	font-size: 45px;
+  }
+
+  .price-block h3{
+  	margin: 10px 0;
+  	font-size: 20px;
+  }
+
+  .button-price{
+  	margin-top: 10px;
+  }
+
+/*----------------------------------------------------------------------------------------*/
+/*                                    GALLERY                                             */
+/*----------------------------------------------------------------------------------------*/  
+
+  .photo h2{
+  	font-size: 50px;
+  }
+
+  .photo h3{
+  	font-size: 18px;
+  }
+
+  .flex-a a{
+  	font-size: 22px;
+  }
+
+  .testimomial, .gallery{
+  	width: 600px;
+  	height: 560px;
+  }
+
+  .test-txt2{
+  	margin-top: 80px;
+  }
+
+/*----------------------------------------------------------------------------------------*/
+/*                                     FOOTER                                             */
+/*----------------------------------------------------------------------------------------*/
+
+  .footer{
+	  padding: 5px 20px;
+  }
+
+  .footer h2{
+    font-size: 16px;
+  }
+
+  .ftr-logo{
+	  font-size:50px;
+	  margin: 10px 0 0 0;
+  }
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*____________________________________LaptopHD ___________________________________________*/
+/*----------------------------------------------------------------------------------------*/
+
+@media (min-width: 1366px) and (max-width: 1530px){
+
+	.text-menu1{
+		margin-top: 35px;
+	}
+
+	.text-menu h3{
+		margin: 35px 0 135px 0;
+	}
+}
+/*----------------------------------------------------------------------------------------*/
+/*________________________________________________________________________________________*/
+/*----------------------------------------------------------------------------------------*/
+@media (min-width: 1064px) and (max-width: 1365px){
+
+  .text-menu1{
+  	font-size: 80px;
+  	margin-top: 35px;
+  }
+
+  .text-menu2{
+  	font-size: 80px;
+  }
+
+  .text-menu h3{
+    margin: 35px 0 30px 0;
+  }
+
+/*----------------------------------------------------------------------------------------*/
+/*                                      ICON                                              */
+/*----------------------------------------------------------------------------------------*/  
+
+  .icon-txt h2{
+  	font-size: 50px;
+  }
+
+  .icon .flex{
+  	margin: 0px 25px 0px 25px;
+  }
+
+/*----------------------------------------------------------------------------------------*/
+/*                                     STORY                                              */
+/*----------------------------------------------------------------------------------------*/
+  .story h2{
+  	font-size: 18px;
+  }
+
+/*----------------------------------------------------------------------------------------*/
+/*                                    PRICING                                             */
+/*----------------------------------------------------------------------------------------*/  
+
+  .price-txt h2{
+  	font-size: 50px;
+  	margin: 40px 0px;
+  }
+
+  .price-block{
+  	height: 405px;
+  	width: 310px;
+  	margin: 0 0 30px 0;
+
+  	line-height: 1.5;
+  }
+
+  .price .flex{
+  	margin: 0px 10px;
+  }
+
+  .price-block h2{
+  	font-size: 45px;
+  }
+
+  .price-block h3{
+  	margin: 10px 0;
+  	font-size: 20px;
+  }
+
+  .button-price{
+  	margin-top: 10px;
+  }
+
+/*----------------------------------------------------------------------------------------*/
+/*                                    GALLERY                                             */
+/*----------------------------------------------------------------------------------------*/  
+
+  .photo h2{
+  	font-size: 50px;
+  }
+
+  .photo h3{
+  	font-size: 18px;
+  }
+
+  .flex-a a{
+  	font-size: 22px;
+  }
+
+  .testimomial, .gallery{
+  	width: 600px;
+  	height: 560px;
+  }
+
+  .test-txt2{
+  	margin-top: 80px;
+  }
+
+/*----------------------------------------------------------------------------------------*/
+/*                                     FOOTER                                             */
+/*----------------------------------------------------------------------------------------*/
+
+  .footer{
+	  padding: 5px 20px;
+  }
+
+  .footer h2{
+    font-size: 16px;
+  }
+
+  .ftr-logo{
+	  font-size:50px;
+	  margin: 10px 0 0 0;
+  }
+}  
+
+}
