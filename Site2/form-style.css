@@ -84,7 +84,7 @@ fieldset{
 }
 
 /* Ipad ----------- */
-@media only screen and (min-width: 768px) and (max-width: 1064px){
+@media only screen and (min-width: 768px) and (max-width: 1075px){
 
 	.form{
 		height: 450px;
@@ -129,7 +129,7 @@ fieldset{
 	}
 }
 
-@media (min-width: 1366px) and (max-width: 1530px){
+@media (min-width: 1365px) and (max-width: 1530px){
 
 	.form-wrap{
 		position: absolute;
@@ -138,7 +138,7 @@ fieldset{
 	}
 }
 
-@media (min-width: 1065px) and (max-width: 1365px){
+@media (min-width: 1075px) and (max-width: 1365px){
 	.form{
 		height: 450px;
 		width: 350px;
@@ -179,5 +179,49 @@ fieldset{
 		width: 350px;
 		height: 55px;
 		margin-top: 45px;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 1000px){
+
+	.form-wrap{
+  position: absolute;
+  top: 145px;
+  left: 56%;
+  }
+
+		.form{
+		height: 340px;
+		width: 280px;
+		padding: 15px;
+		margin-top: 0px;
+	}
+
+	.form-wrap h2{
+		margin: 0 0 15px 0;
+		font-size: 18px;
+	}
+
+	.form-inp input{
+		padding: 15px 15px;
+		margin: 0 0px 12px 0;
+		width: 250px;
+		height: 6px;
+
+		font-size: 16px;
+	}
+
+	.form h4{
+		margin: 0;
+		font-size: 16px;
+	}
+
+	.button-form input{
+		font-size: 20px;
+		padding: 0px 15px;
+		margin: 0 0px 10px 0;
+		width: 280px;
+		height: 40px;
+		margin-top: 30px;
 	}
 }

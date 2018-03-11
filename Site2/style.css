@@ -424,7 +424,7 @@ height: 133px;
 /*______________________________________Ipad _____________________________________________*/
 /*----------------------------------------------------------------------------------------*/
 
-@media only screen and (min-width: 768px) and (max-width: 1064px) {
+@media only screen and (min-width: 768px) and (max-width: 1075px) {
 
 /*----------------------------------------------------------------------------------------*/
 /*                                      MENU                                              */
@@ -548,7 +548,7 @@ height: 133px;
 /*____________________________________LaptopHD ___________________________________________*/
 /*----------------------------------------------------------------------------------------*/
 
-@media (min-width: 1366px) and (max-width: 1530px){
+@media (min-width: 1365px) and (max-width: 1530px){
 
 	.text-menu1{
 		margin-top: 35px;
@@ -561,7 +561,7 @@ height: 133px;
 /*----------------------------------------------------------------------------------------*/
 /*________________________________________________________________________________________*/
 /*----------------------------------------------------------------------------------------*/
-@media (min-width: 1064px) and (max-width: 1365px){
+@media (min-width: 1075px) and (max-width: 1365px){
 
   .text-menu1{
   	font-size: 80px;
@@ -671,5 +671,109 @@ height: 133px;
 	  margin: 10px 0 0 0;
   }
 }  
+
+/*----------------------------------------------------------------------------------------*/
+/*__________________________________790___________________________________________________*/
+/*----------------------------------------------------------------------------------------*/
+
+@media (min-width: 0px) and (max-width: 1000px){
+	
+	.text-menu h3{
+		margin: 0;
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+
+	.text-menu1, .text-menu2{
+		font-size: 55px;
+	}
+
+	.text-menu1{
+		margin: 0;
+	}
+
+	.icon h2{
+		font-size: 18px;
+	}
+
+	.story h2{
+		font-size: 16px;
+		margin: 30px 20px;
+	}
+
+	.story .button{
+		padding: 16px;
+		font-size: 16px;
+		width: 100px;
+		height: 25px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+	.price-txt h2{
+  	font-size: 50px;
+  	margin: 40px 0px;
+  }
+
+  .price-block{
+  	height: 340px;
+  	width: 245px;
+  	margin: 0 0 30px 0;
+
+  	line-height: 1;
+  }
+
+  .price .flex{
+  	margin: 0px 10px;
+  }
+
+  .price-block h2{
+  	font-size: 35px;
+  }
+
+  .price-block h3{
+  	margin: 10px 0;
+  	font-size: 18px;
+  }
+
+  .button-price{
+  	margin-top: 10px;
+  	width: 200px;
+  	height: 45px;
+  }
+
+  .photo .flex{
+  	flex-direction: column;
+  	align-items: center;
+  }
+
+  .gallery .flex{
+  	flex-direction: row;
+  }
+
+  .gallery{
+  	height: 600;
+  	width: 200;
+  }
+
+  .testimomial{
+  	order: 1;
+  }
+
+  .photo h2{
+  	margin: 30px 0;
+  }
+
+  .test-txt{
+  	margin: 0;
+  }
+
+  .test-txt2{
+  	margin: 100px 0 0 0;
+  }
+
 
 }
