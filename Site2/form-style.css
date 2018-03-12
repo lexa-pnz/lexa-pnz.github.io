@@ -225,3 +225,13 @@ fieldset{
 		margin-top: 30px;
 	}
 }
+
+/* Nexus 5X ----------- */
+@media only screen and (max-device-width: 480px){
+
+	.form-wrap{
+		top: 220px;
+		left: 60%;
+	}
+
+}
