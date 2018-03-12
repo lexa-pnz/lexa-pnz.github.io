@@ -650,7 +650,7 @@ height: 133px;
 /*__________________________________790!!!________________________________________________*/
 /*----------------------------------------------------------------------------------------*/
 
-@media (min-width: 0px) and (max-width: 1000px){
+@media (min-width: 790px) and (max-width: 1000px){
 	
 	.text-menu h3{
 		margin: 0;
@@ -758,9 +758,101 @@ height: 133px;
 		margin: 20px 0 10px 0;
 	}
 
-	ul{
-
+	.menu li{
+		font-size: 25px;
 	}
+
+	.icon h2{
+		font-size: 24px;
+		margin: 0 6px;
+	}
+
+	.story h2{
+		font-size: 28px;
+		max-width: 700px;
+	}
+
+	.br-none{
+		display: none;
+	}
+
+	.story .button{
+		height: 60px;
+		width: 200px;
+		font-size: 25px;
+	}
+
+	.story .button:hover{
+		transform: none;
+	}
+
+	.price-block{
+		height: 460px;
+		width: 300px;
+		margin: 0 0 30px 0;
+
+		line-height: 1;
+	}
+
+	.price-block h3{
+		font-size: 28px;
+		margin: 10px 10px;
+	}
+
+	.price-block h2{
+		font-size: 45px;
+	}
+
+	.price .flex{
+		margin: 0 15px;
+	}
+
+	.button-price{
+		width: 240px;
+		height: 55px;
+		font-size: 25px;
+		margin: 0;
+	}
+
+	.gallery a{
+		font-size: 28px;
+	}
+
+	.gallery img{
+		margin: 5% 5%;
+	}
+
+	.gallery{
+		width: 800px;
+		height: 600px;
+	}
+
+	.photo h4{
+		font-size: 28px;
+	}
+
+	.photo h3{
+		font-size: 30px;
+	}
+
+	.photo h2{
+		margin: 50px 0 30px 0;
+	}
+
+	.testimomial{
+		width: 800px;
+		height: 600px;
+	}
+
+	.footer h2{
+		font-size: 18px;
+	}
+
+	.footer .flex-foot{
+		height: 80px;
+	} 
+
+
 
 }
 
