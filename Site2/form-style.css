@@ -182,7 +182,7 @@ fieldset{
 	}
 }
 
-@media (min-width: 790px) and (max-width: 1000px){
+@media (min-width: 0px) and (max-width: 1000px){
 
 	.form-wrap{
   position: absolute;
