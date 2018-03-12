@@ -754,7 +754,8 @@ height: 133px;
 @media only screen and (max-device-width: 480px) {
 
 	.menu h3{
-		font-size: 25px;
+		font-size: 28px;
+		margin: 20px 0 10px 0;
 	}
 
 }
